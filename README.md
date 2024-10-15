@@ -41,7 +41,6 @@
 ### ✔️ 데이터 베이스
 
 </br>
-</br>
 
 ![image](https://github.com/user-attachments/assets/53a8ec90-3828-4c40-837e-cfb0f9d2425e)
 
@@ -49,7 +48,6 @@
 
 ### ✔️ sql정의서
 
-</br>
 </br>
 
 ![accidents sql 정의서](https://github.com/user-attachments/assets/8db329ba-f2af-4f0e-b16e-e571e3092b04)
@@ -63,7 +61,6 @@
 |--|--|
 | ![가해운전자 차종 별_사고수](https://github.com/user-attachments/assets/63ec36c2-2438-4761-b8bb-5d59a636ee8e) | ![기상상태별_사고수](https://github.com/user-attachments/assets/4a8ff576-3274-4c75-990e-6b9a0736c77a)|
 | 연령대 별 사고수 |  
-| ![연령대별_사고수](https://github.com/user-attachments/assets/dd265a0c-80f2-4e55-b058-6737f4a7bc38)
- | ![image] |
+| ![연령대별_사고수](https://github.com/user-attachments/assets/dd265a0c-80f2-4e55-b058-6737f4a7bc38) | ![image] |
 
 
