@@ -77,6 +77,22 @@ xlrd == 2.0.1
 seaborn == 0.13.2
 </br>
 
+
+### ✔️ 폴더트리
+프로젝트
+|- 1. Crawling Code : Web Crawling 및 SQL 진행 파일 폴더
+|-- main.py : 실행 파일. 크롤링 진행 및 SQL 입력
+|-- crawling.py : 크롤링 진행
+|-- sql.py : SQL 입력
+|
+|- 2. App Code : Streamlit 진행 파일 폴더
+|-- app.py : streamlit 실행 파일
+|-- database.py : streamlit에 사용할 데이터 관리
+|-- graph.py : streamlit에 올라갈 그래프 생성
+|- 3. Report : 결과물 폴더
+</br>
+
+
 ### ✔️ ERD (데이터 베이스)
 ❗️ 한국도로교통공단에서 제공하는 자료를 수집 ❗️</br>
 </br>
