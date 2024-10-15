@@ -9,7 +9,7 @@
 | <img src="https://images.emarteveryday.co.kr/images/app/webapps/evd_web2/share/SKU/mall/63/69/8801075016963_1.jpg" alt="image" width="200" height="200"/>| <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230725_196%2F1690257049908lG2Mh_JPEG%2F664738786084541_238649207.jpeg&type=a340" alt="image" width="200" height="200"/>| <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200720_117%2F1595234596314MsuHB_PNG%2F32597984812848452_971879905.png&type=sc960_832" alt="image" width="200" height="200"/>|<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20231126_131%2F17009690877927nnma_JPEG%2F50690122043041166_282999731.jpg&type=a340" alt="image" width="200" height="200"/>|
 | streamlit | mysql & DB설계 | mysql & DB설계 | Crawling |
 
-
+### 느낀점
 
 </br></br></br>
 ## 🚨 상황별 금천구 교통사고 현황 🚘
@@ -84,6 +84,18 @@ matplotlib == 3.9.2
 xlrd == 2.0.1
 </br>
 seaborn == 0.13.2
+
+### ✔️ Stacks
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
+![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+
 
  
 </br>
