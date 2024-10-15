@@ -34,6 +34,10 @@
 3. 연령대별 사고율 분석
 > 연령대별 사고 발생률을 분석하여, 교통사고에 취약한 연령대를 파악하고 교통안전 정책 수립에 기여합니다.
 
+</br>
+### ✔️ 데이터 베이스(DataBase)
+![ERD](https://github.com/user-attachments/assets/53a8ec90-3828-4c40-837e-cfb0f9d2425e)
+
 
 
 
