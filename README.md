@@ -1,5 +1,5 @@
 # SKN06-1st-4Team
-1차 단위프로젝트 
+1차 단위 프로젝트
 ![image](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MjRfMTEx%2FMDAxNzIxODEzMTczOTU1.g76JapH3bXCTiBcGVNIb_vkJH2DYe-CNi2hyqeGin5wg.pvNLPMhK2vXtCHngq1Jrsl3vFWGKeSXSWw7lAU7FqcUg.JPEG%2FDALL%25A1%25A4E_2024-07-24_18.26.06_-_A_hyper-realistic_image_of_a_modern%252C_sleek_spor.jpg&type=sc960_832)
 ## 🐟4조참치🐟
 
