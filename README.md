@@ -127,6 +127,7 @@ seaborn == 0.13.2
 세부내역 
 <img src="https://github.com/user-attachments/assets/3dbd8b7e-90de-4076-aee1-a8941f325ab2" alt="세부내역" width="1000" height="300"/>
 </br>
+
 ### ✔️ 팀원 회고
 
 고성주
