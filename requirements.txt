@@ -1,0 +1,11 @@
+streamlit == 1.39.0
+pymysql == 1.1.1
+pandas == 2.2.3
+openpyxl == 3.1.5
+sqlalchemy  == 2.0.35
+configparser == 7.1.0
+matplotlib == 3.9.2
+xlrd == 2.0.1
+seaborn == 0.13.2
+selenium == 4.21.0
+webdriver_manager == 3.8.5
