@@ -105,7 +105,7 @@ seaborn == 0.13.2
 
 ### ✔️ streamlit 결과
 
-| streamlit 첫 화면 | 기상 상태 별 사고수 | 
+| streamlit 메인 화면 | 기상 상태 별 사고수 | 
 |--|--|
 | ![2024-10-15_105858](https://github.com/user-attachments/assets/5f2a9cd8-00e6-43c7-afdc-040444db58ab) | ![2024-10-15_105922](https://github.com/user-attachments/assets/35d3a88e-ad2d-4222-a337-9482b03da31c)|
 | 가해운전자 차종 별 사고수 | 연령대 별 사고수 |
