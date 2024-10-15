@@ -9,7 +9,7 @@
 | <img src="https://images.emarteveryday.co.kr/images/app/webapps/evd_web2/share/SKU/mall/63/69/8801075016963_1.jpg" alt="image" width="200" height="200"/>| <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230725_196%2F1690257049908lG2Mh_JPEG%2F664738786084541_238649207.jpeg&type=a340" alt="image" width="200" height="200"/>| <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200720_117%2F1595234596314MsuHB_PNG%2F32597984812848452_971879905.png&type=sc960_832" alt="image" width="200" height="200"/>|<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20231126_131%2F17009690877927nnma_JPEG%2F50690122043041166_282999731.jpg&type=a340" alt="image" width="200" height="200"/>|
 | streamlit | mysql & DB설계 | mysql & DB설계 | Crawling |
 
-### 느낀점
+
 
 </br></br></br>
 ## 🚨 상황별 금천구 교통사고 현황 🚘
@@ -28,6 +28,7 @@
 
 </br>
 
+
 ### ✔️ 제공 자료
 1. 기상 조건에 따른 사고 발생률
 
@@ -42,30 +43,18 @@
 </br>
 
 
-### ✔️ ERD(데이터 베이스)
-❗️ 한국도로교통공단에서 제공하는 자료를 수집 ❗️
+### ✔️ Stacks
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
+![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 
 
-![image](https://github.com/user-attachments/assets/53a8ec90-3828-4c40-837e-cfb0f9d2425e)
-
-</br>
-
-### ✔️ sql정의서
-
-
-![accidents sql 정의서](https://github.com/user-attachments/assets/8db329ba-f2af-4f0e-b16e-e571e3092b04)
-
-</br>
-
-### ✔️ 오류
-
-1. 크롤링
-   > ① 16번의 값이 있지만 코딩으로 로딩하면 해당 위치의 값만 추출되지 않았다.
-   >
-   >  -> 해결 불가로 인해 excel 저장이라는 버튼을 클릭하는 방법으로 변경하였다.
-   > 
-   > ② 파일 저장을 한 후 이를 xlsx로 변경하는 과정에서 확장자가 xls이 아닌 html이 확장자명만 xls로 설정되어있었다.
-</br>
 
 ### ✔️ Requirements
 
@@ -87,17 +76,21 @@ xlrd == 2.0.1
 </br>
 seaborn == 0.13.2
 
-### ✔️ Stacks
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
-![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+### ✔️ ERD(데이터 베이스)
+❗️ 한국도로교통공단에서 제공하는 자료를 수집 ❗️
 
+
+![image](https://github.com/user-attachments/assets/53a8ec90-3828-4c40-837e-cfb0f9d2425e)
+
+</br>
+
+### ✔️ sql정의서
+
+
+![accidents sql 정의서](https://github.com/user-attachments/assets/8db329ba-f2af-4f0e-b16e-e571e3092b04)
+
+</br>
 
  
 </br>
@@ -127,6 +120,19 @@ seaborn == 0.13.2
 세부내역 
 <img src="https://github.com/user-attachments/assets/3dbd8b7e-90de-4076-aee1-a8941f325ab2" alt="세부내역" width="1000" height="300"/>
 </br>
+
+
+### ✔️ 오류
+
+1. 크롤링
+   > ① 16번의 값이 있지만 코딩으로 로딩하면 해당 위치의 값만 추출되지 않았다.
+   >
+   >  -> 해결 불가로 인해 excel 저장이라는 버튼을 클릭하는 방법으로 변경하였다.
+   > 
+   > ② 파일 저장을 한 후 이를 xlsx로 변경하는 과정에서 확장자가 xls이 아닌 html이 확장자명만 xls로 설정되어있었다.
+</br>
+
+
 
 ### ✔️ 팀원 회고
 
