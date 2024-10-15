@@ -8,7 +8,7 @@
 ### 팀원
 | 고성주 | 유경상 | 전하연 | 임연경 |
 |--|--|--|--|
-|  |  |  | <img src="(https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20231126_131%2F17009690877927nnma_JPEG%2F50690122043041166_282999731.jpg&type=sc960_832)" alt="image" width="400"/> |
+| ![image] | ![image] | ![image] | ![image](https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20231126_131%2F17009690877927nnma_JPEG%2F50690122043041166_282999731.jpg&type=sc960_832) |
 | streamlit | mysql & DB설계 | mysql & DB설계 | Crawling |
 
 </br></br></br>
