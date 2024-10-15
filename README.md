@@ -63,6 +63,20 @@
    >  -> 해결 불가로 인해 excel 저장이라는 버튼을 클릭하는 방법으로 변경하였다.
    > 
    > ② 파일 저장을 한 후 이를 xlsx로 변경하는 과정에서 확장자가 xls이 아닌 html이 확장자명만 xls로 설정되어있었다.
+</br>
+
+### ✔️ Requirements
+
+streamlit == 1.39.0
+pymysql == 1.1.1
+pandas == 2.2.3
+openpyxl== 1.1.0
+sqlalchemy  == 2.0.35
+configparser == 7.1.0
+matplotlib == 3.9.2
+xlrd == 2.0.1
+seaborn == 0.13.2
+
  
 </br>
 
