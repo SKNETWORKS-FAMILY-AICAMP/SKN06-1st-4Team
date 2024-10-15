@@ -8,7 +8,7 @@
 | 고성주 | 유경상 | 전하연 | 임연경 |
 |--|--|--|--|
 | ![image] | ![image] | ![image] | ![image] |
-| Streamlit | Streamlit | Streamlit | Crawling |
+|  |  |  | Crawling |
 
 
 ## 🚨 상황별 금천구 교통사고 현황 🚘
