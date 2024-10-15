@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def graph_weather():
@@ -127,4 +128,53 @@ def graph_age():
 
     # 그래프 이미지 저장
     plt.savefig('연령대별_사고수.png', dpi=300, bbox_inches='tight')  # 파일명, 해상도, 여백 조정
+    return
+
+def graph_injury():
+    # 데이터베이스 연결 설정 (예시, 실제 설정에 맞게 변경해야 함)
+    db_connection_str = 'mysql+pymysql://scott:tiger@127.0.0.1:3306/accidents'
+    engine = create_engine(db_connection_str)
+
+    # SQL 쿼리 실행 후 DataFrame으로 가져오기
+    query = """
+    SELECT 
+        d1.가해운전자_차종,
+        d2.피해운전자_상해정도,
+        COUNT(*) AS 상해정도_수,
+        (COUNT(*) / SUM(COUNT(*)) OVER (PARTITION BY d1.가해운전자_차종)) * 100 AS 상해정도_비율
+    FROM 
+        driver_1 d1 
+    JOIN 
+        driver_2 d2 ON d2.사고번호 = d1.사고번호
+    GROUP BY 
+        d1.가해운전자_차종, d2.피해운전자_상해정도
+    ORDER BY 
+        d1.가해운전자_차종, 상해정도_비율 DESC;
+    """
+    # 한글 폰트 설정
+    plt.rc('font', family='Malgun Gothic')  # Windows
+
+    # SQL 쿼리 결과를 pandas DataFrame으로 불러오기
+    df = pd.read_sql(query, con=engine)
+
+    # 데이터 출력 (확인용)
+    # print(df.head())
+
+    # 시각화 설정
+    plt.figure(figsize=(10, 6))
+    sns.barplot(x='가해운전자_차종', y='상해정도_비율', hue='피해운전자_상해정도', data=df)
+
+    # 그래프 제목 및 축 레이블
+    plt.title('가해운전자 차종별 피해운전자 상해정도 비율')
+    plt.xlabel('가해운전자 차종')
+    plt.ylabel('상해정도 비율 (%)')
+
+    # 그래프 출력
+    plt.xticks(rotation=45)  # x축 레이블 회전
+    plt.legend(title='피해운전자 상해정도')
+    plt.tight_layout()
+
+    # 그래프 이미지 저장
+    plt.savefig('가해운전자 차종별 피해운전자 상해정도 비율.png', dpi=300, bbox_inches='tight')  # 파일명, 해상도, 여백 조정
+
     return

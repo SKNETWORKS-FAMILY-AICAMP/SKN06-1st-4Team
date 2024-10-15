@@ -100,12 +100,13 @@ elif age_option: # 연령대로 검색한 결과 출력
 graph.graph_weather()
 graph.graph_car()
 graph.graph_age()
+graph.graph_injury()
 
 
 ########################################################
 # 결과 화면
 ########################################################
-st.title("상황에 따른 사고 현황")
+st.title("21~23년 금천구 상황에 따른 사고 현황")
 st.divider()
 
 try:
@@ -116,6 +117,8 @@ try:
         st.image(img)
     elif car_option:
         st.header(':star2:가해운전자 차량별 그래프:star2:')
+        img = Image.open('가해운전자 차종별 피해운전자 상해정도 비율.png')
+        st.image(img)
         img = Image.open('가해운전자 차종 별_사고수.png')
         st.image(img)
     elif age_option:
