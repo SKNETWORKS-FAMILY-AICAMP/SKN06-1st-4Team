@@ -40,7 +40,6 @@
 
 ### ✔️ 데이터 베이스
 
-</br>
 
 ![image](https://github.com/user-attachments/assets/53a8ec90-3828-4c40-837e-cfb0f9d2425e)
 
@@ -48,7 +47,6 @@
 
 ### ✔️ sql정의서
 
-</br>
 
 ![accidents sql 정의서](https://github.com/user-attachments/assets/8db329ba-f2af-4f0e-b16e-e571e3092b04)
 
