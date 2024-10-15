@@ -110,8 +110,7 @@ seaborn == 0.13.2
 |<img src="https://github.com/user-attachments/assets/5f2a9cd8-00e6-43c7-afdc-040444db58ab" alt="streamlit 메인 화면" width="500" height="300"/>| <img src="https://github.com/user-attachments/assets/35d3a88e-ad2d-4222-a337-9482b03da31c" alt="기상 상태 별 사고수" width="500" height="300"/>|
 | 가해운전자 차종 별 사고수 | 연령대 별 사고수 |
 |<img src="https://github.com/user-attachments/assets/aac4e5dc-e165-4c84-90b2-62b84b751777" alt="가해운전자 차종 별 사고수" width="500" height="300"/>|<img src="https://github.com/user-attachments/assets/eae2be1b-dfbd-4071-8855-02580ca15da6" alt="연령대 별 사고수" width="500" height="300"/> |
-| 세부내역 |
-| <img src="https://github.com/user-attachments/assets/3dbd8b7e-90de-4076-aee1-a8941f325ab2" alt="세부내역" width="1000" height="300"/>|
-
+세부내역 
+<img src="https://github.com/user-attachments/assets/3dbd8b7e-90de-4076-aee1-a8941f325ab2" alt="세부내역" width="1000" height="300"/>
 
 
