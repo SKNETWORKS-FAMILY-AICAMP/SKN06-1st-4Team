@@ -1,4 +1,4 @@
-# HR 데이터베이스에서 필요한 SQL 작업 처리 모듈
+# ACC 데이터베이스에서 필요한 SQL 작업 처리 모듈
 import pymysql
 import pymysql.cursors
 
@@ -77,7 +77,6 @@ class ACCDao:
         차종을 조건으로 직원 조회
         return list[dict{column명:value}]
         """
-        # dept_id가 없는 직원은 나오면 안된다. 그래서 inner join. job_id가 없더라도 대상 dept_id의 직원은 나와야 하므로 dept와는 left outer join
         sql = f"""
         {ACCDao.SELECT_STATEMENT}
         FROM accidents a 
@@ -99,7 +98,6 @@ class ACCDao:
         차종을 조건으로 직원 조회
         return list[dict{column명:value}]
         """
-        # dept_id가 없는 직원은 나오면 안된다. 그래서 inner join. job_id가 없더라도 대상 dept_id의 직원은 나와야 하므로 dept와는 left outer join
         sql = f"""
         {ACCDao.SELECT_STATEMENT}
         FROM accidents a 
@@ -116,31 +114,10 @@ class ACCDao:
                 cursor.execute(sql, [연령대])
                 return cursor.fetchall()
 
-    #
-    # def select_all_acc(self):
-    #     """
-    #     모든 직원 조회
-    #     return list[dict{column명:value}]
-    #     """
-    #     sql = f"""
-    #     {ACCDao.SELECT_STATEMENT}
-    #     FROM accidents a LEFT JOIN weather_road w
-    #     ON a.기상상태 = w.기상상태
-    #     """
-    #     with self.get_connection() as conn:
-    #         with conn.cursor(pymysql.cursors.DictCursor) as cursor:
-    #             cursor.execute(sql)
-    #             return cursor.fetchall()
-
-
 if __name__ == "__main__":
     from pprint import pprint
     import pandas as pd
 
     dao = ACCDao("127.0.0.1", 3306, "scott", "tiger", "accidnets")
     print(dao.select_weather())
-    # print(dao.select_dept())
-    # print(pd.DataFrame(dao.select_emp_by_job('FI_ACCOUNT')))
-    # print(pd.DataFrame(dao.select_emp_by_dept('10')))
-    # df = pd.DataFrame(dao.select_all_emp())
-    # print(df.shape)
+
