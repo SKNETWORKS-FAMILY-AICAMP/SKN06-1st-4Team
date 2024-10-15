@@ -68,13 +68,21 @@
 ### ✔️ Requirements
 
 streamlit == 1.39.0
+</br>
 pymysql == 1.1.1
+</br>
 pandas == 2.2.3
+</br>
 openpyxl== 1.1.0
+</br>
 sqlalchemy  == 2.0.35
+</br>
 configparser == 7.1.0
+</br>
 matplotlib == 3.9.2
+</br>
 xlrd == 2.0.1
+</br>
 seaborn == 0.13.2
 
  
