@@ -28,7 +28,7 @@
 
 </br>
 
-### ✔️ 프로젝트 내용
+### ✔️ 제공 자료
 1. 기상 조건에 따른 사고 발생률
 
 > 날씨에 따른 교통사고 건수 및 비율을 그래프로 제공하여, 기상 악화 시 주의가 필요한 시점을 제시합니다.
@@ -41,7 +41,9 @@
 
 </br>
 
+
 ### ✔️ ERD(데이터 베이스)
+❗️ 한국도로교통공단에서 제공하는 자료를 수집 ❗️
 
 
 ![image](https://github.com/user-attachments/assets/53a8ec90-3828-4c40-837e-cfb0f9d2425e)
@@ -124,5 +126,17 @@ seaborn == 0.13.2
 |<img src="https://github.com/user-attachments/assets/aac4e5dc-e165-4c84-90b2-62b84b751777" alt="가해운전자 차종 별 사고수" width="500" height="300"/>|<img src="https://github.com/user-attachments/assets/eae2be1b-dfbd-4071-8855-02580ca15da6" alt="연령대 별 사고수" width="500" height="300"/> |
 세부내역 
 <img src="https://github.com/user-attachments/assets/3dbd8b7e-90de-4076-aee1-a8941f325ab2" alt="세부내역" width="1000" height="300"/>
+</br>
+### ✔️ 팀원 회고
 
-
+고성주
+>
+</br>
+유경상
+>
+</br>
+전하연
+>
+</br>
+임연경
+>
