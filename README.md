@@ -92,9 +92,9 @@ seaborn == 0.13.2
 
 | 가해운전자 차종 별 사고수 | 기상 상태 별 사고수 | 
 |--|--|
-| <img src="https://github.com/user-attachments/assets/63ec36c2-2438-4761-b8bb-5d59a636ee8e" alt="가해운전자 차종 별 사고수" width="300" height="300"/> | <img src="https://github.com/user-attachments/assets/4a8ff576-3274-4c75-990e-6b9a0736c77a" alt="기상 상태 별 사고수" width="300" height="300"/>|
+| <img src="https://github.com/user-attachments/assets/63ec36c2-2438-4761-b8bb-5d59a636ee8e" alt="가해운전자 차종 별 사고수" width="500" height="300"/> | <img src="https://github.com/user-attachments/assets/4a8ff576-3274-4c75-990e-6b9a0736c77a" alt="기상 상태 별 사고수" width="500" height="300"/>|
 | 연령대 별 사고수 |  가해운전자 차종별 피해운전자 상해정도 비율 |
-| <img src="https://github.com/user-attachments/assets/dd265a0c-80f2-4e55-b058-6737f4a7bc38" alt="연령대 별 사고수" width="300" height="300"/> |<img src="https://github.com/user-attachments/assets/83e38013-6cac-4f53-be3f-0dc603c5ab64" alt="가해운전자 차종 별 피해운전자 상해정도 비율" width="300" height="300"/>|
+| <img src="https://github.com/user-attachments/assets/dd265a0c-80f2-4e55-b058-6737f4a7bc38" alt="연령대 별 사고수" width="500" height="300"/> |<img src="https://github.com/user-attachments/assets/83e38013-6cac-4f53-be3f-0dc603c5ab64" alt="가해운전자 차종 별 피해운전자 상해정도 비율" width="500" height="300"/>|
 
 
 
@@ -107,11 +107,11 @@ seaborn == 0.13.2
 
 | streamlit 메인 화면 | 기상 상태 별 사고수 | 
 |--|--|
-|<img src="https://github.com/user-attachments/assets/5f2a9cd8-00e6-43c7-afdc-040444db58ab" alt="streamlit 메인 화면" width="300" height="300"/>| <img src="https://github.com/user-attachments/assets/35d3a88e-ad2d-4222-a337-9482b03da31c" alt="기상 상태 별 사고수" width="300" height="300"/>|
+|<img src="https://github.com/user-attachments/assets/5f2a9cd8-00e6-43c7-afdc-040444db58ab" alt="streamlit 메인 화면" width="500" height="300"/>| <img src="https://github.com/user-attachments/assets/35d3a88e-ad2d-4222-a337-9482b03da31c" alt="기상 상태 별 사고수" width="500" height="300"/>|
 | 가해운전자 차종 별 사고수 | 연령대 별 사고수 |
-|<img src="https://github.com/user-attachments/assets/aac4e5dc-e165-4c84-90b2-62b84b751777" alt="가해운전자 차종 별 사고수" width="300" height="300"/>|<img src="https://github.com/user-attachments/assets/eae2be1b-dfbd-4071-8855-02580ca15da6" alt="연령대 별 사고수" width="300" height="300"/> |
+|<img src="https://github.com/user-attachments/assets/aac4e5dc-e165-4c84-90b2-62b84b751777" alt="가해운전자 차종 별 사고수" width="500" height="300"/>|<img src="https://github.com/user-attachments/assets/eae2be1b-dfbd-4071-8855-02580ca15da6" alt="연령대 별 사고수" width="500" height="300"/> |
 | 세부내역 |
-| <img src="https://github.com/user-attachments/assets/3dbd8b7e-90de-4076-aee1-a8941f325ab2" alt="세부내역" width="600" height="300"/>|
+| <img src="https://github.com/user-attachments/assets/3dbd8b7e-90de-4076-aee1-a8941f325ab2" alt="세부내역" width="1000" height="300"/>|
 
 
 
