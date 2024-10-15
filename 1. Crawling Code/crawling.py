@@ -22,7 +22,7 @@ def crawling():
     url = "https://taas.koroad.or.kr/gis/mcm/mcl/initMap.do?menuId=GIS_GMP_STS_NTS#"
     driver.get(url)
 
-    # 페이지 요소와 상호작용
+    # 사고분석 페이지로 이동
     select1 = driver.find_element(By.CSS_SELECTOR, 'a.left-icon02')
     select1.click()
 
@@ -40,7 +40,7 @@ def crawling():
     select4 = Select(driver.find_element(By.ID, 'ptsRafSido'))
     select4.select_by_value("11")
 
-    # 세부 지역 선택 (서울 강서구)
+   # 세부 지역 선택 (서울 금천구)
     select5 = Select(driver.find_element(By.ID, 'ptsRafSigungu'))
     select5.select_by_value("11545")
 
@@ -60,7 +60,7 @@ def crawling():
 
     time.sleep(5)  # 검색 결과 로딩 시간 대기
 
-    # 데이터가 로드되기 전에 스크롤을 끝까지 내려서 모든 데이터를 로딩
+    # 목록보기 버튼 클릭
     select7 = driver.find_element(By.CSS_SELECTOR, 'a.btn-minibox')
     select7.click()
 
