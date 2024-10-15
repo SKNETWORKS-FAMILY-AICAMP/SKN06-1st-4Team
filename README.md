@@ -6,8 +6,10 @@
 ### 팀원
 | 고성주 | 유경상 | 전하연 | 임연경 |
 |--|--|--|--|
-| ![image](https://images.emarteveryday.co.kr/images/app/webapps/evd_web2/share/SKU/mall/63/69/8801075016963_1.jpg)| ![image](https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230725_196%2F1690257049908lG2Mh_JPEG%2F664738786084541_238649207.jpeg&type=a340)| ![image](https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200720_117%2F1595234596314MsuHB_PNG%2F32597984812848452_971879905.png&type=sc960_832)|![image](https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20231126_131%2F17009690877927nnma_JPEG%2F50690122043041166_282999731.jpg&type=a340)|
+| <img src="https://images.emarteveryday.co.kr/images/app/webapps/evd_web2/share/SKU/mall/63/69/8801075016963_1.jpg" alt="image" width="200" height="200"/>| <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230725_196%2F1690257049908lG2Mh_JPEG%2F664738786084541_238649207.jpeg&type=a340" alt="image" width="200" height="200"/>| <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200720_117%2F1595234596314MsuHB_PNG%2F32597984812848452_971879905.png&type=sc960_832" alt="image" width="200" height="200"/>|<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20231126_131%2F17009690877927nnma_JPEG%2F50690122043041166_282999731.jpg&type=a340" alt="image" width="200" height="200"/>|
 | streamlit | mysql & DB설계 | mysql & DB설계 | Crawling |
+
+
 
 </br></br></br>
 ## 🚨 상황별 금천구 교통사고 현황 🚘
