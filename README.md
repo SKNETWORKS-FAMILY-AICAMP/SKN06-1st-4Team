@@ -64,3 +64,14 @@
 | ![연령대별_사고수](https://github.com/user-attachments/assets/dd265a0c-80f2-4e55-b058-6737f4a7bc38) | ![image] |
 
 
+
+</br>
+
+### ✔️ streamlit 결과
+
+| streamlit 첫 화면 | 기상 상태 별 사고수 | 
+|--|--|
+| ![2024-10-15_105858](https://github.com/user-attachments/assets/5f2a9cd8-00e6-43c7-afdc-040444db58ab) | ![2024-10-15_105922](https://github.com/user-attachments/assets/35d3a88e-ad2d-4222-a337-9482b03da31c)|
+| 가해운전자 차종 별 사고수 | 연령대 별 사고수 |
+| ![2024-10-15_105936](https://github.com/user-attachments/assets/aac4e5dc-e165-4c84-90b2-62b84b751777) | ![2024-10-15_105950](https://github.com/user-attachments/assets/eae2be1b-dfbd-4071-8855-02580ca15da6) |
+
