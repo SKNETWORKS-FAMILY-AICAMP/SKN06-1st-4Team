@@ -43,6 +43,15 @@
 ![image](https://github.com/user-attachments/assets/53a8ec90-3828-4c40-837e-cfb0f9d2425e)
 
 </br>
+### ✔️ sql정의서
+
+</br>
+</br>
+
+![image]![accidents sql 정의서](https://github.com/user-attachments/assets/8db329ba-f2af-4f0e-b16e-e571e3092b04)
+
+
+</br>
 ### ✔️ 프로젝트 결과
 
 | 가해운전자 차종 별 사고수 | 기상 상태 별 사고수 | 
@@ -51,7 +60,6 @@
  |
 | 연령대 별 사고수 |  |
 | ![image]![연령대별_사고수](https://github.com/user-attachments/assets/dd265a0c-80f2-4e55-b058-6737f4a7bc38)
- | ![image](https://github.com/user-attachments/assets/6d74b751-b781-4def-975d-44fdea5b7f18)
-
+ | ![image] |
 
 
