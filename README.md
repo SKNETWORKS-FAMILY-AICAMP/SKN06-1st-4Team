@@ -80,19 +80,19 @@ seaborn == 0.13.2
 
 ### ✔️ 폴더트리
 ```
-.프로젝트 </br>
-|-- 1. Crawling Code : Web Crawling 및 SQL 진행 파일 폴더 </br>
-|    |---- main.py : 실행 파일. 크롤링 진행 및 SQL 입력 </br>
-|    |---- crawling.py : 크롤링 진행 </br>
-|    |---- sql.py : SQL 입력 </br>
-| </br>
+프로젝트
+|-- 1. Crawling Code : Web Crawling 및 SQL 진행 파일 폴더 
+|    |-- main.py : 실행 파일. 크롤링 진행 및 SQL 입력 
+|    |-- crawling.py : 크롤링 진행 
+|    |-- sql.py : SQL 입력 
+| 
 |-- 2. App Code : Streamlit 진행 파일 폴더 </br>
-|    |---- app.py : streamlit 실행 파일 </br>
-|    |---- database.py : streamlit에 사용할 데이터 관리 </br>
-|    |---- graph.py : streamlit에 올라갈 그래프 생성 </br>
-| </br>
-|-- 3. Report : 결과물 폴더 </br>
-</br>
+|    |-- app.py : streamlit 실행 파일 </br>
+|    |-- database.py : streamlit에 사용할 데이터 관리 
+|    |-- graph.py : streamlit에 올라갈 그래프 생성 
+| 
+|-- 3. Report : 결과물 폴더 
+
 ```
 
 ### ✔️ ERD (데이터 베이스)
