@@ -91,7 +91,9 @@ seaborn == 0.13.2
 |    |-- database.py : streamlit에 사용할 데이터 관리 
 |    |-- graph.py : streamlit에 올라갈 그래프 생성 
 | 
-|-- 3. Report : 결과물 폴더 
+|-- 3. Report : 결과물 폴더
+|-- readme.md : readme 파일
+|-- requirements.tex : 설치 모듈 리스트
 
 ```
 
