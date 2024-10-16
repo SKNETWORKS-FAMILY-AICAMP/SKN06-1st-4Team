@@ -79,7 +79,8 @@ seaborn == 0.13.2
 
 
 ### ✔️ 폴더트리
-프로젝트 </br>
+'''bash
+.프로젝트 </br>
 |-- 1. Crawling Code : Web Crawling 및 SQL 진행 파일 폴더 </br>
 |    |---- main.py : 실행 파일. 크롤링 진행 및 SQL 입력 </br>
 |    |---- crawling.py : 크롤링 진행 </br>
@@ -92,7 +93,7 @@ seaborn == 0.13.2
 | </br>
 |-- 3. Report : 결과물 폴더 </br>
 </br>
-
+'''
 
 ### ✔️ ERD (데이터 베이스)
 ❗️ 한국도로교통공단에서 제공하는 자료를 수집 ❗️</br>
