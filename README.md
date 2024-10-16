@@ -97,10 +97,18 @@ seaborn == 0.13.2
 ### ✔️ ERD (데이터 베이스)
 ❗️ 한국도로교통공단에서 제공하는 자료를 수집 ❗️</br>
 </br>
-accidents 테이블 - 사고 내용을 저장하는 테이블 </br>
-driver_1 테이블 - 가해운전자 정보를 저장하는 테이블 </br>
-driver_2 테이블 - 피해운전자 정보를 저장하는 테이블 </br>
-weather_road 테이블 - 기상상태에 따른 노면상태를 저장하는 테이블 </br>
+accidents 테이블 
+> 사고 내용을 저장하는 테이블
+> 
+driver_1 테이블 
+> 가해운전자 정보를 저장하는 테이블
+> 
+driver_2 테이블
+> 피해운전자 정보를 저장하는 테이블
+> 
+weather_road 테이블
+> 기상상태에 따른 노면상태를 저장하는 테이블
+> 
 
 
 ![image](https://github.com/user-attachments/assets/53a8ec90-3828-4c40-837e-cfb0f9d2425e)
