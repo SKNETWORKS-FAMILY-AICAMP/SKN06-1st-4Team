@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-def graph_weather():
+def graph_weather(): # 날씨 조건에 따른 교통사고 데이터(날씨별 사고 건수)
     # MySQL 데이터베이스 연결
     engine = create_engine('mysql+pymysql://scott:tiger@127.0.0.1:3306/accidents')
 
@@ -58,7 +58,7 @@ def graph_weather():
     return
 
 
-def graph_age():
+def graph_age(): # 연령대별 교통사고 데이터(연령대별 사고 건수를 계산)
     # MySQL 데이터베이스 연결
     engine = create_engine('mysql+pymysql://scott:tiger@127.0.0.1:3306/accidents')
 
@@ -100,7 +100,7 @@ def graph_age():
     plt.savefig('연령대별_사고수.png', dpi=300, bbox_inches='tight')  # 파일명, 해상도, 여백 조정
     return
 
-def graph_injury():
+def graph_injury(): # 가해 차량 종류별로 피해자의 상해 정도 데이터(상해 비율을 시각화)
     # 데이터베이스 연결 설정 (예시, 실제 설정에 맞게 변경해야 함)
     db_connection_str = 'mysql+pymysql://scott:tiger@127.0.0.1:3306/accidents'
     engine = create_engine(db_connection_str)
