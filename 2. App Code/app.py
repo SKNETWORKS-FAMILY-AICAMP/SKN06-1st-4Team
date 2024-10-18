@@ -6,7 +6,7 @@ import graph
 
 st.set_page_config("상황에 따른 사고 현황", layout="wide")
 
-@st.cache_resource
+@st.cache_resource   # 데이터베이스 연결을 캐시하여 여러번 불필요하게 연결이 생성되는 것을 방지
 def get_dao():
     """
     ACCDao 생성 함수.
@@ -19,8 +19,8 @@ def get_dao():
 
 dao = get_dao()
 
-@st.cache_data
-def get_weather():
+@st.cache_data   # 조회된 데이터를 캐시하여 동일한 데이터를 반복해 가져오는 것을 방지
+def get_weather(): # 해당 데이터를 데이터베이스에서 조회
     """
     전체 날씨 조회 함수
     return
@@ -29,7 +29,7 @@ def get_weather():
     return dao.select_weather()
 
 @st.cache_data
-def get_car():
+def get_car(): # 해당 데이터를 데이터베이스에서 조회
     """
     전체 차종 함수
     return
@@ -38,7 +38,7 @@ def get_car():
     return dao.select_car()
 
 @st.cache_data
-def get_age():
+def get_age(): # 해당 데이터를 데이터베이스에서 조회
     """
     전체 연령대 함수
     return
@@ -59,7 +59,7 @@ weather_option = None
 car_option = None
 age_option = None
 
-if by == "날씨로 검색":
+if by == "날씨로 검색": #사용자가 선택한 검색 조건에 따라 적절한 테이블를 데이터 베이스에서 조회
     weather_option = st.sidebar.selectbox(
         label="검색할 날씨 선택.",
         options=get_weather(),
@@ -121,7 +121,7 @@ try:
 
     st.divider()
     st.header(':star2:세부 내역 테이블:star2:')
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, use_container_width=True) # 사용자가 선택한 조건에 따른 검색결과를 표형태로 출력
 except:
     st.subheader("검색조건을 선택하세요.")
     img = Image.open('a.png')
